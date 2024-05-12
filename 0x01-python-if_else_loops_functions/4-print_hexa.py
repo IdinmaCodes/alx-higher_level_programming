@@ -3,4 +3,4 @@
 #    print("{:d} = {}".format(num, hex(num)))
 
 for i in range(0,98+1):
-    print("{}: {}".format(i, hex(i)))
+    print("{:d}: {}".format(i, hex(i)))
