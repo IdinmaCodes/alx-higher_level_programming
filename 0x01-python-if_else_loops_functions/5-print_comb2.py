@@ -6,4 +6,8 @@
 #        print(f"{num:02}".format(num=num))
 
 for i in range(0, 100):
-    print("{:02d}".format(i), end=", " if i < 99 else "\n")
+    if i < 99:
+        print("{:02d}".format(i), end=", ")
+    else:
+        print("{:2d}".format(i))
+    
