@@ -1,4 +1,4 @@
 -- 8-count_89.sql
 SELECT COUNT(*) 
-FROM table_name 
-WHERE condition;
+FROM first_table 
+WHERE id = 89;
