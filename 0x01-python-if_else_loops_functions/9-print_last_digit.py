@@ -1,6 +1,5 @@
-def uppercase(str):
-	str = ord(input("Enter string: "))
-
-	for i in str:
-		print("str")
-		print()
+#!/usr/bin/python3
+def print_last_digit(number):
+    last_digit = abs(number) % 10
+    print("{}".format(last_digit), end="")
+    return last_digit
