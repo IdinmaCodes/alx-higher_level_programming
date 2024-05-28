@@ -1,0 +1,6 @@
+def uppercase(str):
+	result = ''
+	for char in str:
+		if char >= 'a' and char <= 'z':
+			result += chr(ord(char)- 32)
+	return result
