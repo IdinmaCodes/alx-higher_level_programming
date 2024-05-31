@@ -5,5 +5,5 @@ if __name__ == "__main__":
         sum = 0
         for i in sys.argv[1:]:
             sum += int(i)
-        print("{}\n".format(sum))
+        print("{}".format(sum))
     infinite_add()
