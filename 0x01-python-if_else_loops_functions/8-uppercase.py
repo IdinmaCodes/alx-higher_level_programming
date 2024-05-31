@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/python
 def uppercase(str):
     if str == None:
@@ -12,3 +13,14 @@ def uppercase(str):
 uppercase("HABEEB")
 #str = "habeeb"
 #print("HABEEB")
+=======
+#!/usr/bin/python3
+def uppercase(str):
+    uppercase_str = ""
+    for char in str:
+        if char >= "a" and char <= "z":
+            uppercase_str += chr(ord(char) - 32)
+        else:
+            uppercase_str += char
+    print("{}".format(uppercase_str))
+>>>>>>> ea9c67427e3b45ac7bad0fbbea8dab945b2856c4
