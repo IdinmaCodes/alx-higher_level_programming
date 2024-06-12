@@ -1,11 +1,11 @@
-#!/usr/bin/python3                              
-def add_tuple(tuple_a=(), tuple_b=()):          
-    first_a = tuple_a[0] if tuple_a else 0:         
-    first_b = tuple_b[0] if tuple_b else 0:         
-    result = first_a + first_b                      
-    return result                                   
-                                                
-    second_a = tuple_a[0] if tuple_a else 0:        
-    second_b = tuple_b[0] if tuple_b else 0:        
-    result = second_a + second_b                    
-    return result
+#!/usr/bin/python3
+def add_tuple(tuple_a=(), tuple_b=()):
+    first_a = tuple_a
+    first_b = tuple_b
+    sum1 = first_a + first_b
+    
+    second_a = tuple_a
+    second_b = tuple_b
+    sum2 = second_a + second_b
+    
+    return (sum1, sum2)
