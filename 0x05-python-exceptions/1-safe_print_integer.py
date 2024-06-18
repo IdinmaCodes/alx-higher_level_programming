@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 def safe_print_integer(value):
     try:
-        print("{:d}\n".format(value))
+        print("{:d}".format(value))
+        print()
         return True
     except Exception as e:
-        print("An error occurred: {}\n".format(e))
+        print("An error occurred: {}".format(e))
+        print()
         return False
