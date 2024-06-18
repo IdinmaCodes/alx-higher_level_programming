@@ -6,4 +6,5 @@ def safe_print_integer(value):
         return True
     except Exception as e:
         print(f"An error occurred: {e}")
+        print()
         return False
