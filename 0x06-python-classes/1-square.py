@@ -3,6 +3,7 @@
 Module for defining the Square class.
 """
 
+
 class Square:
     """Square class with a size attribute."""
     def __init__(self, size):
