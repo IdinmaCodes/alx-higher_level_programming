@@ -1,12 +1,25 @@
 #!/usr/bin/python3
 """
-A class to represent a square.
+Module for the Square class.
+
+This module defines a class `Square` that represents a square and allows
+for the manipulation and calculation of its properties.
+
+Classes:
+    Square
+
 Attributes:
-size (int): The size of the square.
+    None
 """
 
 
 class Square:
+    """
+    A class to represent a square.
+
+    Attributes:
+        size (int): The size of the square.
+    """
     def __init__(self, size=0):
         self.__size = size
 
