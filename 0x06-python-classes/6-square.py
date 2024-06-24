@@ -18,6 +18,13 @@ Methods:
 
 
 class Square:
+    """
+    Represents a square with size manipulation and printing methods.
+
+    Attributes:
+        __size (int): Private attribute for the size of the square.
+    """
+
     def __init__(self, size=0):
         self.__size = size
 
