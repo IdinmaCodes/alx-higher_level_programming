@@ -1,5 +1,7 @@
 # Test cases for add_integer function
 
+>>> from your_module_name import add_integer  # Replace 'your_module_name' with your actual module name
+
 >>> add_integer(1, 2)
 3
 
