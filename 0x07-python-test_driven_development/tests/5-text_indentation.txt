@@ -1,0 +1,32 @@
+# Test cases for text_indentation function
+
+>>> from your_module_name import text_indentation  # Replace 'your_module_name' with your actual module name
+
+>>> text_indentation("Hello. How are you? I hope you're doing well.")
+Hello.
+
+How are you?
+
+I hope you're doing well.
+
+>>> text_indentation("This is a test: see if it works.")
+This is a test:
+
+see if it works.
+
+>>> text_indentation("Just a sentence without punctuation")
+Just a sentence without punctuation
+
+>>> text_indentation("First line. Second line? Third line: end.")
+First line.
+
+Second line?
+
+Third line:
+
+end.
+
+>>> text_indentation(12345)
+Traceback (most recent call last):
+    ...
+TypeError: text must be a string
