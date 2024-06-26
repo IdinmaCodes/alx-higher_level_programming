@@ -1,0 +1,39 @@
+# Test cases for print_square function
+
+>>> from your_module_name import print_square  # Replace 'your_module_name' with your actual module name
+
+# Test case 1: Print a square of size 5
+>>> print_square(5)
+#####
+#####
+#####
+#####
+#####
+
+# Test case 2: Print a square of size 3
+>>> print_square(3)
+###
+###
+###
+
+# Test case 3: Print a square of size 1
+>>> print_square(1)
+#
+
+# Test case 4: Try printing a square with size -1
+>>> print_square(-1)
+Traceback (most recent call last):
+    ...
+ValueError: size must be >= 0
+
+# Test case 5: Try printing a square with size 2.5 (float)
+>>> print_square(2.5)
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
+
+# Test case 6: Try printing a square with size 'hello'
+>>> print_square('hello')
+Traceback (most recent call last):
+    ...
+TypeError: size must be an integer
