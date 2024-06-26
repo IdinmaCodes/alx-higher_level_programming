@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-Returns a list of attributes and methods of an object.
-"""
+"""Provides utilities for object introspection."""
 
 
 def lookup(obj):
+    """Returns a list of attributes and methods of the given object."""
     attributes_and_methods = dir(obj)
     return attributes_and_methods
